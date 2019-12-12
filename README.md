@@ -12,8 +12,11 @@ social login spring security + boot + google and github oauth2
 5.Run "Oauth2Application" as main application.<br/>
 6."http://localhost:8081" url in any browser to test.<br/>
  
-Similarly goto github. login-> settings->OAuth tabs-> create application <br/>
+Similarly goto github. login into application. goto-> settings->OAuth tabs-> create application <br/>
 After that add any application name.<br/>
 homepage url : http://localhost:8081<br/>
 Authorization callback URL: http://localhost:8081/login/oauth2/code/github<br/>
-then copy client-id and client-secret.
+then copy client-id and client-secret.<br/>
+
+#Note
+For facebook oauth2. the client web application must be on https. otherwise facebook will not allow you to redirect.
