@@ -1,0 +1,27 @@
+server:
+   port: 8081
+   
+spring:
+    security:
+      oauth2:
+        client:
+          registration:
+            google:
+              clientId: 476657182861-os6v764f6cpnc3h1qatfbrdrk8t8fj94.apps.googleusercontent.com
+              clientSecret: shyG2Fjig2XE42hPThYjrWfb
+              scope:
+                - email
+                - profile
+            facebook:
+              clientId: 2353101298335706
+              clientSecret: 66a5c34420e33ff6bdf5a1ffe5fad997
+              scope:
+                - email
+                - public_profile
+            github:
+              clientId: 235e8d5258a21708c72d
+              clientSecret: f715c63166a906d5c3f86f4e2074ccbe2a88c47e
+              scope:
+                - user:email
+                - read:user
+       
