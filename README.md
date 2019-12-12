@@ -18,5 +18,5 @@ homepage url : http://localhost:8081<br/>
 Authorization callback URL: http://localhost:8081/login/oauth2/code/github<br/>
 then copy client-id and client-secret.<br/>
 
-#Note
+#Note<br/>
 For facebook oauth2. the client web application must be on https. otherwise facebook will not allow you to redirect.
